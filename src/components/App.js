@@ -10,7 +10,7 @@ const options = [
 ];
 
 const App = () => {
-  const [currentPlan, setCurrentPlan] = useState();
+  const [currentPlan, setCurrentPlan] = useState(options[0]);
 
   const changeHandler = (e) => {
      setCurrentPlan(options[e.target.value]);
