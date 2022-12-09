@@ -64,7 +64,7 @@ const App = () => {
               </option>
               {options.map((option) => (
                 <option key={option.key} value={option.key}>
-                 
+                   {option.plan}
                 </option>
               ))}
             </select>
