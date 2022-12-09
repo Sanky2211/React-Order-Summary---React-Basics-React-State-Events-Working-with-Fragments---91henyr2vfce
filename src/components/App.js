@@ -40,7 +40,7 @@ const App = () => {
             any device anywhere you like.
           </p>
         </div>
-        <form onSubmit={}>
+        <form onSubmit={changeHandler}>
           <div className="select-container">
             <div className="music-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
