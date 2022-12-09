@@ -13,11 +13,14 @@ const App = () => {
   const [currentPlan, setCurrentPlan] = useState();
 
   const changeHandler = (e) => {
+     setCurrentPlan(options[e.target.value]);
+     console.log(e.target.value);
 
   };
 
   const submitHandler = (e) => {
-    
+    e.preventDefault();
+   alert("Thanks for Subscribing");
   };
 
   return (
