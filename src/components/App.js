@@ -70,10 +70,10 @@ const App = () => {
             </select>
           </div>
           <button className="button" type="submit">
-             <a href="/">Proceed to Payment</a>
+             Proceed to Payment
           </button>
           <div className="cancel">
-            <a href="/">Cancel Order</a>
+            <a href="">Cancel Order</a>
           </div>
         </form>
       </div>
